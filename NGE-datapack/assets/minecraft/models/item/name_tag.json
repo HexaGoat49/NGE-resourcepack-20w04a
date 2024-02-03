@@ -1,0 +1,11 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/name_tag"
+    },
+   
+    "overrides": [
+        { "predicate": {"custom_model_data": 420000}, "model": "item/evas/common/entry_plug_chair"}
+    ]
+       
+}
