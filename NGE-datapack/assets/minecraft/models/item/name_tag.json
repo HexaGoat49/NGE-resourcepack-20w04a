@@ -5,7 +5,9 @@
     },
    
     "overrides": [
-        { "predicate": {"custom_model_data": 420000}, "model": "item/evas/common/entry_plug_chair"}
+        { "predicate": {"custom_model_data": 420000}, "model": "item/evas/common/entry_plug_chair"},
+	{ "predicate": {"custom_model_data": 420001}, "model": "item/evas/common/entry_plug_interior"},
+	{ "predicate": {"custom_model_data": 420002}, "model": "item/evas/unit01/chest"}
     ]
        
 }
