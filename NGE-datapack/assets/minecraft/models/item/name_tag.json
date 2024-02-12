@@ -7,7 +7,10 @@
     "overrides": [
         { "predicate": {"custom_model_data": 420000}, "model": "item/evas/common/entry_plug_chair"},
 	{ "predicate": {"custom_model_data": 420001}, "model": "item/evas/common/entry_plug_interior"},
-	{ "predicate": {"custom_model_data": 420002}, "model": "item/evas/unit01/chest"}
+	{ "predicate": {"custom_model_data": 420002}, "model": "item/evas/unit01/chest"},
+	{ "predicate": {"custom_model_data": 420003}, "model": "item/evas/unit01/torso"},
+	{ "predicate": {"custom_model_data": 420004}, "model": "item/evas/unit01/arm/left_arm"},
+	{ "predicate": {"custom_model_data": 420005}, "model": "item/evas/unit01/arm/right_arm"}
     ]
        
 }
