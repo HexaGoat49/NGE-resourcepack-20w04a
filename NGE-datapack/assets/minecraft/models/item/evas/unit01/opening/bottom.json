@@ -1,0 +1,35 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "item/evas/eva01/chest",
+		"particle": "item/evas/eva01/chest"
+	},
+	"elements": [
+		{
+			"from": [5, 8, 11.5],
+			"to": [11, 10.5, 17],
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [11.75, 10.75, 13.25, 11.375], "texture": "#0"},
+				"east": {"uv": [11.125, 11.375, 11.75, 12.75], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [9.625, 12.75, 11.125, 13.375], "texture": "#0"},
+				"west": {"uv": [11.125, 11.375, 11.75, 12.75], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [9.625, 11.375, 11.125, 12.75], "texture": "#0"},
+				"down": {"uv": [11.75, 11.25, 13.25, 12.75], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.5, 2.5, 14.7],
+			"to": [8.5, 8, 15.7],
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [13.25, 11.25, 13.5, 12.75], "texture": "#0"},
+				"east": {"uv": [13.25, 12.75, 13.5, 11.25], "texture": "#0"},
+				"south": {"uv": [13.25, 11.25, 13.5, 12.75], "texture": "#0"},
+				"west": {"uv": [13.25, 12.75, 13.5, 11.25], "texture": "#0"},
+				"up": {"uv": [12.375, 12.125, 12.625, 12.375], "texture": "#0"},
+				"down": {"uv": [12.375, 12.125, 12.625, 12.375], "rotation": 180, "texture": "#0"}
+			}
+		}
+	]
+}
