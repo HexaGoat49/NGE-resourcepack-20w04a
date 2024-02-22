@@ -5,21 +5,7 @@
     },
    
     "overrides": [
-	{ "predicate": {"custom_model_data": 490100}, "model": "item/evas/unit01/chest"},
-	{ "predicate": {"custom_model_data": 490101}, "model": "item/evas/unit01/torso"},
-
-	{ "predicate": {"custom_model_data": 490102}, "model": "item/evas/unit01/arm/left_arm"},
-	{ "predicate": {"custom_model_data": 490103}, "model": "item/evas/unit01/arm/right_arm"},
-	{ "predicate": {"custom_model_data": 490104}, "model": "item/evas/unit01/arm/left_forearm"},
-	{ "predicate": {"custom_model_data": 490105}, "model": "item/evas/unit01/arm/right_forearm"},
-
-	{ "predicate": {"custom_model_data": 490106}, "model": "item/evas/unit01/leg/left_leg"},
-	{ "predicate": {"custom_model_data": 490107}, "model": "item/evas/unit01/leg/right_leg"},
-	{ "predicate": {"custom_model_data": 490108}, "model": "item/evas/unit01/leg/left_calf"},
-	{ "predicate": {"custom_model_data": 490109}, "model": "item/evas/unit01/leg/right_calf"},
-
-	{ "predicate": {"custom_model_data": 491000}, "model": "item/evas/common/entry_plug_chair"},
-	{ "predicate": {"custom_model_data": 491001}, "model": "item/evas/common/entry_plug_interior"}
+	{ "predicate": {"custom_model_data": 101}, "model": "item/evas/unit01/torso"}
     ]
        
 }

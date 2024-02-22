@@ -1,44 +1,6 @@
 {
-	"credit": "Made with Blockbench",
-	"textures": {
-		"0": "item/evas/eva01/arm",
-		"particle": "item/evas/eva01/arm"
-	},
-	"elements": [
-		{
-			"from": [2.5, 4.75, 4.75],
-			"to": [8, 11.25, 11.25],
-			"rotation": {"angle": 0, "axis": "z", "origin": [5.25, 8, 8]},
-			"faces": {
-				"north": {"uv": [0, 2.75, 2.75, 6], "texture": "#0"},
-				"east": {"uv": [8.75, 2.75, 12, 6], "texture": "#0"},
-				"south": {"uv": [6, 2.75, 8.75, 6], "texture": "#0"},
-				"west": {"uv": [2.75, 2.75, 6, 6], "texture": "#0"},
-				"up": {"uv": [2.75, 0, 6, 2.75], "rotation": 90, "texture": "#0"},
-				"down": {"uv": [2.75, 6, 6, 8.75], "rotation": 270, "texture": "#0"}
-			}
-		},
-		{
-			"from": [3, -5.25, 5.75],
-			"to": [7, 4.75, 10.25],
-			"rotation": {"angle": 0, "axis": "z", "origin": [8, 8, 8]},
-			"faces": {
-				"north": {"uv": [4.25, 8.75, 6.25, 13.75], "texture": "#0"},
-				"east": {"uv": [2, 8.75, 4.25, 13.75], "texture": "#0"},
-				"south": {"uv": [0, 8.75, 2, 13.75], "texture": "#0"},
-				"west": {"uv": [6.25, 8.75, 8.5, 13.75], "texture": "#0"},
-				"up": {"uv": [4.25, 13.75, 6.25, 16], "texture": "#0"},
-				"down": {"uv": [4.25, 13.75, 6.25, 16], "texture": "#0"}
-			}
-		}
-	],
-	"groups": [
-		{
-			"name": "arm",
-			"origin": [0, 0, 0],
-			"color": 0,
-			"nbt": "{}",
-			"children": [0, 1]
-		}
-	]
+  "parent": "minecraft:item/evas/common/arm/left_arm",
+  "textures": {
+    "t": "minecraft:item/evas/eva01/arm"
+  }
 }
