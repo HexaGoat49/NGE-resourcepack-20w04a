@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:item/evas/common/opening/top",
+  "parent": "minecraft:item/evas/common/opening/wing",
   "textures": {
     "t": "minecraft:item/evas/eva01/chest"
   }
