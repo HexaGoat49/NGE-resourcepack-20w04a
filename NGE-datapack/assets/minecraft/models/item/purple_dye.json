@@ -20,7 +20,10 @@
 	{ "predicate": {"custom_model_data": 112}, "model": "item/evas/unit01/opening/bottom"},
 	{ "predicate": {"custom_model_data": 113}, "model": "item/evas/unit01/opening/wing"},
 	{ "predicate": {"custom_model_data": 114}, "model": "item/evas/unit01/head"},
-	{ "predicate": {"custom_model_data": 115}, "model": "item/evas/unit01/jaw"}
+	{ "predicate": {"custom_model_data": 115}, "model": "item/evas/unit01/jaw"},
+	{ "predicate": {"custom_model_data": 116}, "model": "item/evas/unit01/hand/gun_hand"},
+	{ "predicate": {"custom_model_data": 117}, "model": "item/evas/unit01/hand/knife_hand"}
+
     ]
        
 }

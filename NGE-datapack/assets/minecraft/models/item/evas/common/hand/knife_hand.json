@@ -1,0 +1,102 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "#t",
+		"1": "item/weapons/knife",
+		"particle": "item/weapons/knife"
+	},
+	"elements": [
+		{
+			"from": [2, 5.25, 7],
+			"to": [3.5, 10.75, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 12.5, 9]},
+			"faces": {
+				"north": {"uv": [12, 15.5, 14.75, 14.75], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [8, 12.75, 5.25, 15.25], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [12, 15.5, 14.75, 14.75], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [8, 12.5, 5.25, 15], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [8, 12.5, 7.25, 15.25], "texture": "#0"},
+				"down": {"uv": [6, 12.5, 5.25, 15], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"from": [2.5, 10, 9.5],
+			"to": [8, 11.5, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.5, 11, 10.25]},
+			"faces": {
+				"north": {"uv": [15.5, 7.75, 14.75, 10.5], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [14.75, 7, 14, 7.75], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [14.75, 7.75, 15.5, 10.5], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [14.75, 10.5, 14, 11.25], "rotation": 180, "texture": "#0"},
+				"up": {"uv": [14.75, 7.75, 14, 10.5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [16, 7.75, 15.25, 10.5], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [3.5, 5.25, 7],
+			"to": [8, 10.75, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1.5, 12.5, 1]},
+			"faces": {
+				"north": {"uv": [12, 12.5, 14.75, 14.75], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [12, 12.5, 14.75, 11.25], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [10.75, 12.5, 8, 14.75], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [12, 16, 14.75, 14.75], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [14.75, 12.5, 16, 14.75], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [10.75, 12.5, 12, 14.75], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [3.5, 4.25, 8.5],
+			"to": [6.5, 14.25, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 10.25, 9]},
+			"faces": {
+				"north": {"uv": [1.5, 2.5, 4.5, 12.5], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [0, 2.5, 1.5, 12.5], "rotation": 180, "texture": "#1"},
+				"south": {"uv": [4.5, 2.5, 1.5, 12.5], "rotation": 180, "texture": "#1"},
+				"west": {"uv": [0, 2.5, 1.5, 12.5], "texture": "#1"},
+				"up": {"uv": [1.5, 12.5, 4.5, 14], "texture": "#1"},
+				"down": {"uv": [0, 0, 3, 1.5], "texture": "#1"}
+			}
+		},
+		{
+			"from": [3.5, 3.25, 8.5],
+			"to": [8, 4.25, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 0.5, 9]},
+			"faces": {
+				"north": {"uv": [1.5, 1.5, 6, 2.5], "texture": "#1"},
+				"east": {"uv": [0, 1.5, 1.5, 2.5], "texture": "#1"},
+				"south": {"uv": [1.5, 1.5, 6, 2.5], "texture": "#1"},
+				"west": {"uv": [0, 1.5, 1.5, 2.5], "texture": "#1"},
+				"up": {"uv": [1.5, 2.5, 6, 4], "texture": "#1"},
+				"down": {"uv": [1.5, 0, 6, 1.5], "texture": "#1"}
+			}
+		},
+		{
+			"from": [3.25, -8.75, 9.25],
+			"to": [6.25, 3.25, 9.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3.75, -0.5, 9]},
+			"faces": {
+				"north": {"uv": [9, 0, 6, 12], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [0, 0, 0, 12], "texture": "#1"},
+				"south": {"uv": [6, 0, 9, 12], "rotation": 180, "texture": "#1"},
+				"west": {"uv": [0, 0, 0, 12], "texture": "#1"},
+				"up": {"uv": [0, 0, 3, 0], "texture": "#1"},
+				"down": {"uv": [0, 0, 3, 0], "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "hand",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1, 2]
+		},
+		{
+			"name": "knife",
+			"origin": [4, 0.5, 9],
+			"color": 0,
+			"children": [3, 4, 5]
+		}
+	]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/controls/control",
+  "textures": {
+    "layer0": "minecraft:item/controls/blank"
+  }
+}

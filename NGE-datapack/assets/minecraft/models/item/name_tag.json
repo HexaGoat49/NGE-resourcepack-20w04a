@@ -5,7 +5,10 @@
     },
    
     "overrides": [
-	{ "predicate": {"custom_model_data": 101}, "model": "item/evas/unit01/torso"}
+	{ "predicate": {"custom_model_data": 100}, "model": "item/evas/common/entry_plug/interior"},
+	{ "predicate": {"custom_model_data": 101}, "model": "item/evas/common/entry_plug/chair"},
+
+	{ "predicate": {"custom_model_data": 200}, "model": "item/weapons/pallet_rifle"}
     ]
        
 }

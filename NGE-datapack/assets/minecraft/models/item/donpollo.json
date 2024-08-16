@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/ruby",
+  "textures": {
+    "layer0": "minecraft:item/donpollo"
+  }
+}
